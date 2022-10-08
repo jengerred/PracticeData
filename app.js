@@ -108,7 +108,7 @@ function reportSchools(p) {
 }
 
 function reportClassrooms(s) {
-    console.log('%c --------- Classrooms Report ---------', 'background: #222; color: #bada55')
+    console.log('%c ------------ Classrooms Report ------------', 'background: #222; color: #bada55')
 
     //total and average number of students in classrooms.
     console.log(`Our ${s.length} classrooms have a total number of ${sum} students, with an average of ${ratio} students per classroom.`)
